@@ -16,7 +16,7 @@
 		<input type="text" name="email" placeholder="Mobile Number or Email"><br>
 		<input type="text" name="fullname" placeholder="Full Name"><br>
 		<input type="text" name="username" placeholder="Username"><br>
-		<input type="password" name="password" placeholder="Password"><br>
+		<input type="password" name="passwd" placeholder="Password"><br>
 		<button type="submit">Sign Up</button><br>
 		<p>By signing up, you agree to our<br><b>Terms & Privacy Policy</b>.</p><br>
 		<h4>Have an account?<a href=login.php>Log in</button></h4>

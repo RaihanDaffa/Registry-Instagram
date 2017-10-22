@@ -16,14 +16,14 @@ $password= "";
 $email=$_POST['email'];
 $fullname=$_POST['fullname'];
 $username=$_POST['username'];
-$password=$_POST['password'];
+$passwd=$_POST['passwd'];
 
 
 if($username)
 {
 $conn=mysqli_connect ($host,$user,$password);
-mysqli_select_db ($conn,'dbinstagram');
-$sql="insert into tbinstagram values ('$email', '$fullname', '$username', '$password')";
+mysqli_select_db ($conn,'formulir');
+$sql="insert into users values ('$email', '$fullname', '$username', '$passwd')";
 $hasil=mysqli_query ($conn,$sql); 
 }
 
@@ -53,7 +53,7 @@ else{
 		</div>
 
 		<div class="password">
-			Password : <?php echo "$password"; ?><br>
+			Password : <?php echo "$passwd"; ?><br>
 		</div>
 		
 		
