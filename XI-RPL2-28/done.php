@@ -14,7 +14,7 @@ $host= "localhost";
 $user= "root";
 $password= "";
 $email=$_POST['email'];
-$fullname=$_POST['full-name'];
+$fullname=$_POST['fullname'];
 $username=$_POST['username'];
 $password=$_POST['password'];
 
